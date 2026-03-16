@@ -1,3 +1,4 @@
+package ProjetosDeEstudo;
 
 import java.util.Locale;
 import java.util.Scanner;
@@ -20,11 +21,12 @@ public class CalculadoraImc {
             input.nextLine();
             double Imc;
             Imc = peso / (altura * altura);
+            String valorFormatado = String.format("%.2f", Imc);
             System.out.println("Seu nome é:" + Nome);
             System.out.println("Sua idade é:" + idade);
             System.out.println("Seu peso é:" + peso);
             System.out.println("Sua altura é:" + altura);
-            System.out.println("Seu Imc é:" + Imc);
+            System.out.println("Seu Imc é:" + valorFormatado);
             if (Imc <= 18.5) {
                 System.out.println("Você está abaixo do peso");
             } else if (Imc <= 25) {

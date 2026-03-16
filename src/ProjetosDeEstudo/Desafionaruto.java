@@ -1,3 +1,5 @@
+package ProjetosDeEstudo;
+
 public class Desafionaruto {
     public static void main(String[] args) {
         // Esse foi um Desafio do Curso java10X aonde usa uma base de ninjas para o desafio

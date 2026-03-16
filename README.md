@@ -12,7 +12,7 @@ The project is organized by topic to maintain a clear learning path:
   - Includes: `DadosPrimitivos` and `DadosNãoPrimitivos`.
 - **Root Files**:
   - `Calculadoraimc.java`: A practical BMI calculator application.
-  - `Desafionaruto.java`: An applied logic challenge.
+  - `ProjetosDeEstudo.Desafionaruto.java`: An applied logic challenge.
 
 ## 🛠 Tech Stack
 
